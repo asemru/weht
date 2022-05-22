@@ -1,0 +1,36 @@
+body {
+    font-family: sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+header h1{
+    color: white;
+    background-image: linear-gradient(to right, black, grey, white);
+    height: 50px;
+}
+
+
+
+a {
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px;
+    border: 2px solid royalblue;
+    border-radius: 10px;
+    position: relative;
+    box-shadow: 0 5px 0 0 royalblue;
+}
+
+a:focus {
+    box-shadow: inset 0 5px 0 2px royalblue;
+    color: black;
+    top: 10px;
+}
+
+
+a:hover {
+    box-shadow: inset 0 5px 0 0 royalblue;
+    color: black;
+}
